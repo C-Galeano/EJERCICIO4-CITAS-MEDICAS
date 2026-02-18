@@ -9,11 +9,11 @@ public class Cita {
     private LocalDate fecha;
     private EstadoCita estado;
 
-    // Constructor vacío (opcional)
+
     public Cita() {
     }
 
-    //  Constructor de 3 parámetros (EL QUE FALTABA)
+
     public Cita(int id, String nombrePaciente, LocalDate fecha) {
         this.id = id;
         this.nombrePaciente = nombrePaciente;
@@ -21,7 +21,7 @@ public class Cita {
         this.estado = EstadoCita.PROGRAMADA;
     }
 
-    // Constructor de 4 parámetros (DEJA SOLO UNO)
+
     public Cita(int id, String nombrePaciente, LocalDate fecha, EstadoCita estado) {
         this.id = id;
         this.nombrePaciente = nombrePaciente;
